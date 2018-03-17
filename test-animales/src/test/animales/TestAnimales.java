@@ -24,14 +24,8 @@ public class TestAnimales {
         Animal b = new Pez();
         Animal c = new Gato();
         muestraQueCome(a);
-<<<<<<< Updated upstream
         muestraQueCome(b);
         muestraQueCome(c);
-=======
-         muestraQueCome(b);
-         muestraQueCome(c);
-
->>>>>>> Stashed changes
     }
             
        String d =asd.next();
