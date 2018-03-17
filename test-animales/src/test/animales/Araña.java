@@ -21,5 +21,8 @@ public class Araña extends AnimalesConPatas {
         System.out.println("come bichos");
 
     }
+    public void emitirSonido(){
+        System.out.println("que  sonido hace una araña????");
+    }
 
 }

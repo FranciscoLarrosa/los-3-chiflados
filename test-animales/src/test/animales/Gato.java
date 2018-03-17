@@ -40,4 +40,7 @@ public class Gato extends AnimalesConPatas implements Mascota {
         System.out.println("come ratas");
         //as
     }
+    public void emitirSonido(){
+        System.out.println("MIAU");
+    }
 }

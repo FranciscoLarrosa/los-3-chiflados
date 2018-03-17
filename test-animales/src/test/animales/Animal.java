@@ -4,12 +4,13 @@
  * and open the template in the editor.
  */
 package test.animales;
+import interfaces.EmisorSonido;
 
 /**
  *
  * @author User
  */
-public abstract class Animal {
+public abstract class Animal implements EmisorSonido{
     
      public Animal(){
          
@@ -18,6 +19,8 @@ public abstract class Animal {
          
      }
      public abstract void comer();
+     
+     public abstract void emitirSonido();
      
     
     

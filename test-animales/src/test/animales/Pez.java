@@ -27,15 +27,20 @@ public class Pez extends Animal implements Mascota {
 
     }
 
-    public void jugar(){
+    public void jugar() {
         System.out.println("jugando pez");
     }
-    
+
     public Pez(String nombre) {
-this.nombre = nombre; 
+        this.nombre = nombre;
     }
+
     @Override
     public void comer() {
         System.out.println("come algas");
+    }
+    
+    public void emitirSonido(){
+        System.out.println("Sonido pez");
     }
 }

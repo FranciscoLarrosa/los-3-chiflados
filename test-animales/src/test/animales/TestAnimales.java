@@ -1,26 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package test.animales;
 
 import java.util.Scanner;
-import interfaces.Mascota;
+import interfaces.*;
 
-/**
- *
- * @author User
- */
 public class TestAnimales {
 
     Scanner asd = new Scanner(System.in);
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
         Araña a = new Araña();
         Pez b = new Pez();
         Gato c = new Gato();
@@ -38,12 +26,23 @@ public class TestAnimales {
         mascotas[3] = new Gato();
 
         System.out.println(a.getPatas() + "." + c.getPatas());
-
+        // EJERCICIO PARTE 5 :
         for (int i = 0; i < mascotas.length; i++) {
 
             miMascota(mascotas[i]);
-
         }
+            // EJERCICIO PARTE 6:
+            EmisorSonido[] sonidos = new EmisorSonido[5];
+            sonidos[0] = new Perro();
+            sonidos[1] = new Perro();
+            sonidos[2] = new Gato();
+            sonidos[3] = new Gato();
+            sonidos[4] = new Gato();
+            for (int j = 0; j < sonidos.length; j++) {
+                queSonidoEmite(sonidos[j]);
+                
+            }
+        
     }
 
     public static void muestraQueCome(Animal d) {
@@ -54,6 +53,10 @@ public class TestAnimales {
 
     public static void miMascota(Mascota a) {
         a.jugar();
+    }
+
+    public static void queSonidoEmite(EmisorSonido a) {
+        a.emitirSonido();
     }
 
     //aaaaa
