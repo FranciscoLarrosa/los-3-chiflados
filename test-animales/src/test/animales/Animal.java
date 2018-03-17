@@ -9,7 +9,22 @@ package test.animales;
  *
  * @author User
  */
-abstract class Animal {
-    
+public abstract class Animal {
+    private int patas;
+     public Animal(){
+         
+     }
+     public Animal(int patas){
+         
+     }
+     public abstract void comer();
+     
+    public int getPatas() {
+        return patas;
+    }
+
+    public void setPatas(int patas) {
+        this.patas = patas;
+    }
     
 }
