@@ -9,6 +9,7 @@ package test.animales;
  *
  * @author User
  */
-public class Animal {
+abstract class Animal {
+    
     
 }

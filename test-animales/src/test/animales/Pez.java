@@ -9,6 +9,13 @@ package test.animales;
  *
  * @author User
  */
-public class Pez {
-    
+public class Pez extends Animal {
+
+    public Pez() {
+
+    }
+
+    public void comer() {
+
+    }
 }
