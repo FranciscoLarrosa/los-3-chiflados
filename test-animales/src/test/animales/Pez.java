@@ -11,6 +11,16 @@ package test.animales;
  */
 public class Pez extends Animal implements Mascota {
 
+    String nombre;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public Pez() {
 
     }

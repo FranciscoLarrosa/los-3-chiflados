@@ -9,7 +9,7 @@ package test.animales;
  *
  * @author User
  */
-public class Gato extends Animal implements Mascota {
+public class Gato extends AnimalesConPatas implements Mascota {
     
     String nombre;
 
@@ -20,8 +20,8 @@ public class Gato extends Animal implements Mascota {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    
-    
+
+
     public Gato (){
         
     }

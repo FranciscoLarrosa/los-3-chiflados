@@ -9,17 +9,17 @@ package test.animales;
  *
  * @author User
  */
-public class Araña extends AnimalesConPatas {
+public abstract class AnimalesConPatas extends Animal {
+    
+    int patas;
 
-    public Araña() {
-
+    public int getPatas() {
+        return patas;
     }
 
-    @Override
-    public void comer() {
-        
-        System.out.println("come bichos");
-
+    public void setPatas(int patas) {
+        this.patas = patas;
     }
-
+    
+    
 }
