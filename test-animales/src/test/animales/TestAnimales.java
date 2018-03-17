@@ -20,14 +20,18 @@ public class TestAnimales {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Animal a = new Araña();
-        Animal b = new Pez();
-        Animal c = new Gato();
+        Araña a = new Araña();
+        Pez b = new Pez();
+        Gato c = new Gato();
         muestraQueCome(a);
         muestraQueCome(b);
         muestraQueCome(c);
         
+        a.setPatas(8);
+        c.setPatas(4);
         
+        
+        System.out.println(a.getPatas()+c.getPatas());
     }
             
        
