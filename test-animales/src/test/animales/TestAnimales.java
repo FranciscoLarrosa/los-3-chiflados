@@ -5,12 +5,16 @@
  */
 package test.animales;
 
+import java.util.Scanner;
+
 /**
  *
  * @author User
  */
 public class TestAnimales {
 
+    
+        Scanner asd = new Scanner(System.in);
     /**
      * @param args the command line arguments
      */
@@ -19,14 +23,15 @@ public class TestAnimales {
         Animal a = new Araña();
         Animal b = new Pez();
         Animal c = new Gato();
-        
-
-        public void muestraQueCome(Animal d){
+    }
             
-            System.out.println(d.comer());
+       String d =asd.next();
+    
+        public static void muestraQueCome(Animal d){
             
+           d.comer();
             
         }
     }
-}
+
 
