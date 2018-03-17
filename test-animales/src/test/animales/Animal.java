@@ -1,28 +1,39 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package test.animales;
-import interfaces.EmisorSonido;
 
-/**
- *
- * @author User
- */
-public abstract class Animal implements EmisorSonido{
-    
-     public Animal(){
-         
-     }
-     public Animal(int patas){
-         
-     }
-     public abstract void comer();
-     
-     public abstract void emitirSonido();
-     
-    
-    
-    
+import interfaces.*;
+
+public abstract class Animal implements EmisorSonido, Comparablee {
+
+    int peso;
+
+    public int getPeso() {
+        return peso;
+    }
+
+    public void setPeso(int peso) {
+        this.peso = peso;
+    }
+
+    public Animal() {
+
+    }
+
+    public Animal(int patas) {
+
+    }
+
+    public abstract void comer();
+
+    public abstract void emitirSonido();
+
+    public int comapareTo(Animal a) {
+        if (this.peso < a.peso) {
+            return -1;
+        }
+        if (this.peso == a.peso) {
+            return 0;
+        }
+        return 1;
+    }
+
 }

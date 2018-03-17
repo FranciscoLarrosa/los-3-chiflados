@@ -5,15 +5,15 @@
  */
 package test.animales;
 
-import interfaces.Mascota;
+import interfaces.*;
 
 /**
  *
  * @author User
  */
-public class Gato extends AnimalesConPatas implements Mascota {
+public class Gato extends AnimalesConPatas implements Mascota, EmisorSonido {
 
-    String nombre;
+    String nombre, sonido;
 
     public String getNombre() {
         return nombre;
@@ -29,6 +29,16 @@ public class Gato extends AnimalesConPatas implements Mascota {
 
     public Gato(String nombre) {
         this.nombre = nombre;
+        this.sonido = "Miau";
+    }
+    @Override
+    public void setSonido(String sonido) {
+        this.sonido = sonido;
+    }
+
+    @Override
+    public String getSonido() {
+        return sonido;
     }
 
     public void jugar() {
@@ -40,7 +50,8 @@ public class Gato extends AnimalesConPatas implements Mascota {
         System.out.println("come ratas");
         //as
     }
-    public void emitirSonido(){
-        System.out.println("MIAU");
+
+    public void emitirSonido() {
+        System.out.println(this.sonido);
     }
 }

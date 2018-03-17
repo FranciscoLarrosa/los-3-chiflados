@@ -5,6 +5,8 @@
  */
 package test.animales;
 
+
+
 /**
  *
  * @author User
@@ -16,10 +18,11 @@ public abstract class AnimalesConPatas extends Animal {
     public int getPatas() {
         return patas;
     }
-
+    public abstract void comer();
     public void setPatas(int patas) {
         this.patas = patas;
     }
     
     
 }
+
