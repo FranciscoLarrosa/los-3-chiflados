@@ -14,8 +14,8 @@ import interfaces.Mascota;
  */
 public class TestAnimales {
 
-    
-        Scanner asd = new Scanner(System.in);
+    Scanner asd = new Scanner(System.in);
+
     /**
      * @param args the command line arguments
      */
@@ -27,30 +27,26 @@ public class TestAnimales {
         muestraQueCome(a);
         muestraQueCome(b);
         muestraQueCome(c);
-        
+
         a.setPatas(8);
         c.setPatas(4);
         b.jugar();
         c.jugar();
-        
-        System.out.println(a.getPatas()+"."+c.getPatas());
-    }
-            
-       
-        public static void miMascota(Mascota a ){
-            Mascota b = null;
-            b = (Gato)a; 
-            b.jugar();
-            
-            
-            
-        }
-                public static void muestraQueCome(Animal d){
-            
-           d.comer();
-            
-        }
-        //aaaaa
+
+        System.out.println(a.getPatas() + "." + c.getPatas());
     }
 
+    public static void miMascota(Mascota a) {
+        Mascota b = null;
+        b = (Gato) a;
+        b.jugar();
 
+    }
+
+    public static void muestraQueCome(Animal d) {
+
+        d.comer();
+
+    }
+    //aaaaa
+}
