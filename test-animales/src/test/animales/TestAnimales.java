@@ -16,6 +16,12 @@ public class TestAnimales {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Animal a = new Araña();
+        Animal b = new Pez();
+        Animal c = new Gato();
+        public void muestraQueCome(a){
+            
+        }
     }
     
 }
