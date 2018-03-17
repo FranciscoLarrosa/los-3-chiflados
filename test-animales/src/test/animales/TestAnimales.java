@@ -23,6 +23,9 @@ public class TestAnimales {
         Animal a = new Araña();
         Animal b = new Pez();
         Animal c = new Gato();
+        muestraQueCome(a);
+        muestraQueCome(b);
+        muestraQueCome(c);
     }
             
        String d =asd.next();
@@ -32,6 +35,7 @@ public class TestAnimales {
            d.comer();
             
         }
+        
     }
 
 
