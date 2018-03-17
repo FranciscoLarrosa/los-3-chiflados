@@ -2,6 +2,6 @@
 package interfaces;
 
 
-public interface Comparablee {
+public interface Comparable {
     public int compareTo(Object a);
 }

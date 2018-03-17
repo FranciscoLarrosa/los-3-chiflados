@@ -4,14 +4,14 @@
  * and open the template in the editor.
  */
 package test.animales;
-
+import interfaces.*;
 
 
 /**
  *
  * @author User
  */
-public abstract class AnimalesConPatas extends Animal {
+public abstract class AnimalesConPatas extends Animal implements EmisorSonido {
     
     int patas;
 

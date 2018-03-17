@@ -10,7 +10,7 @@ package test.animales;
  * @author User
  */
 public class Araña extends AnimalesConPatas {
-
+    String sonido;
     public Araña() {
 
     }
@@ -21,6 +21,15 @@ public class Araña extends AnimalesConPatas {
         System.out.println("come bichos");
 
     }
+    @Override
+    public String getSonido(){
+        return sonido;
+    }
+    @Override
+    public void setSonido(String sonido){
+        this.sonido = sonido;
+    }
+    @Override
     public void emitirSonido(){
         System.out.println("que  sonido hace una araña????");
     }

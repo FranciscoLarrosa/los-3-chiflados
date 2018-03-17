@@ -5,13 +5,15 @@ import interfaces.*;
 public class Perro extends AnimalesConPatas implements Mascota, EmisorSonido {
 
     String nombre,sonido;
-
+    public Perro(){
+        
+    }
     public Perro(String nombre) {
         this.nombre = nombre;
         this.sonido = "GUAU GUAU";
     }
     @Override
-    public void setSonido(){
+    public void setSonido(String sonido){
         this.sonido = sonido;
     }
     @Override
@@ -32,5 +34,7 @@ public class Perro extends AnimalesConPatas implements Mascota, EmisorSonido {
     public void jugar(){
         System.out.println("Perro juega");
     }
+    
+   
 
 }
