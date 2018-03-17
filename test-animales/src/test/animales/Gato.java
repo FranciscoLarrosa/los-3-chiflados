@@ -12,7 +12,7 @@ import interfaces.Mascota;
  * @author User
  */
 public class Gato extends AnimalesConPatas implements Mascota {
-    
+
     String nombre;
 
     public String getNombre() {
@@ -23,21 +23,20 @@ public class Gato extends AnimalesConPatas implements Mascota {
         this.nombre = nombre;
     }
 
+    public Gato() {
 
-    public Gato (){
-        
     }
-    public Gato(String nombre){
+
+    public Gato(String nombre) {
         this.nombre = nombre;
     }
-    
-    public void jugar(){
+
+    public void jugar() {
         System.out.println("jugando gato");
     }
-    
-     
-    public void comer(){
-        
+
+    public void comer() {
+
         System.out.println("come ratas");
         //as
     }

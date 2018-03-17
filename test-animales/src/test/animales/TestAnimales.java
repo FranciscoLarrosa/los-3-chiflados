@@ -6,6 +6,7 @@
 package test.animales;
 
 import java.util.Scanner;
+import interfaces.Mascota;
 
 /**
  *
@@ -36,8 +37,15 @@ public class TestAnimales {
     }
             
        
-    
-        public static void muestraQueCome(Animal d){
+        public static void miMascota(Mascota a ){
+            Mascota b = null;
+            b = (Gato)a; 
+            b.jugar();
+            
+            
+            
+        }
+                public static void muestraQueCome(Animal d){
             
            d.comer();
             
