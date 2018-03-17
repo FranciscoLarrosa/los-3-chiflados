@@ -19,9 +19,14 @@ public class TestAnimales {
         Animal a = new Araña();
         Animal b = new Pez();
         Animal c = new Gato();
-        public void muestraQueCome(a){
+        
+
+        public void muestraQueCome(Animal d){
+            
+            System.out.println(d.comer());
+            
             
         }
     }
-    
 }
+

@@ -9,6 +9,17 @@ package test.animales;
  *
  * @author User
  */
-public class Gato {
+public class Gato extends Animal {
     
+    
+    public Gato (){
+        
+    }
+    
+     
+    public void comer(){
+        
+        System.out.println("come ratas");
+        
+    }
 }
