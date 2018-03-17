@@ -30,6 +30,6 @@ public class Gato extends AnimalesConPatas implements Mascota {
     public void comer(){
         
         System.out.println("come ratas");
-        
+        //as
     }
 }
