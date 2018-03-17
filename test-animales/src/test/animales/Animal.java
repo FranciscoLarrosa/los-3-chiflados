@@ -10,7 +10,7 @@ package test.animales;
  * @author User
  */
 public abstract class Animal {
-    private int patas;
+    
      public Animal(){
          
      }
@@ -19,12 +19,7 @@ public abstract class Animal {
      }
      public abstract void comer();
      
-    public int getPatas() {
-        return patas;
-    }
-
-    public void setPatas(int patas) {
-        this.patas = patas;
-    }
+    
+    
     
 }
