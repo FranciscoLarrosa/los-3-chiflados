@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package test.animales;
+package interfaces;
 
 /**
  *
  * @author User
  */
 public interface Mascota {
-    
+    public void jugar();
     
     
 }

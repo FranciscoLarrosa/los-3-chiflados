@@ -5,6 +5,8 @@
  */
 package test.animales;
 
+import interfaces.Mascota;
+
 /**
  *
  * @author User
@@ -25,6 +27,13 @@ public class Pez extends Animal implements Mascota {
 
     }
 
+    public void jugar(){
+        System.out.println("jua");
+    }
+    
+    public Pez(String nombre) {
+this.nombre = nombre; 
+    }
     @Override
     public void comer() {
         System.out.println("come algas");

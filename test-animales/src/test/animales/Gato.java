@@ -5,6 +5,8 @@
  */
 package test.animales;
 
+import interfaces.Mascota;
+
 /**
  *
  * @author User
@@ -24,6 +26,13 @@ public class Gato extends AnimalesConPatas implements Mascota {
 
     public Gato (){
         
+    }
+    public Gato(String nombre){
+        this.nombre = nombre;
+    }
+    
+    public void jugar(){
+        System.out.println("jugando gato");
     }
     
      

@@ -29,9 +29,10 @@ public class TestAnimales {
         
         a.setPatas(8);
         c.setPatas(4);
+        b.jugar();
+        c.jugar();
         
-        
-        System.out.println(a.getPatas()+c.getPatas());
+        System.out.println(a.getPatas()+"."+c.getPatas());
     }
             
        
