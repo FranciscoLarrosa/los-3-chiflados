@@ -11,4 +11,6 @@ package test.animales;
  */
 public interface Mascota {
     
+    
+    
 }

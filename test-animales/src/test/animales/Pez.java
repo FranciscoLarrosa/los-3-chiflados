@@ -9,7 +9,7 @@ package test.animales;
  *
  * @author User
  */
-public class Pez extends Animal {
+public class Pez extends Animal implements Mascota {
 
     public Pez() {
 
