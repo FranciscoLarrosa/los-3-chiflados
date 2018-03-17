@@ -16,6 +16,6 @@ public class Pez extends Animal {
     }
 
     public void comer() {
-
+        System.out.println("come algas");
     }
 }
