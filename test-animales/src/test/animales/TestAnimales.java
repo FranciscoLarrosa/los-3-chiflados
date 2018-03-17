@@ -26,9 +26,11 @@ public class TestAnimales {
         muestraQueCome(a);
         muestraQueCome(b);
         muestraQueCome(c);
+        
+        
     }
             
-       String d =asd.next();
+       
     
         public static void muestraQueCome(Animal d){
             
