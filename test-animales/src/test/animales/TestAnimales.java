@@ -27,20 +27,23 @@ public class TestAnimales {
         muestraQueCome(a);
         muestraQueCome(b);
         muestraQueCome(c);
-
+        b.setNombre("kiki");
+        c.setNombre("cucu");
         a.setPatas(8);
         c.setPatas(4);
-        b.jugar();
-        c.jugar();
+        Mascota[] mascotas = new Mascota[4];
+        mascotas[0] = new Pez();
+        mascotas[1] = new Pez();
+        mascotas[2] = new Gato();
+        mascotas[3] = new Gato();
 
         System.out.println(a.getPatas() + "." + c.getPatas());
-    }
 
-    public static void miMascota(Mascota a) {
-        Mascota b = null;
-        b = (Gato) a;
-        b.jugar();
+        for (int i = 0; i < mascotas.length; i++) {
 
+            miMascota(mascotas[i]);
+
+        }
     }
 
     public static void muestraQueCome(Animal d) {
@@ -48,5 +51,10 @@ public class TestAnimales {
         d.comer();
 
     }
+
+    public static void miMascota(Mascota a) {
+        a.jugar();
+    }
+
     //aaaaa
 }

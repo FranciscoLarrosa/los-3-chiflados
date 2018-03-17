@@ -28,7 +28,7 @@ public class Pez extends Animal implements Mascota {
     }
 
     public void jugar(){
-        System.out.println("jua");
+        System.out.println("jugando pez");
     }
     
     public Pez(String nombre) {
