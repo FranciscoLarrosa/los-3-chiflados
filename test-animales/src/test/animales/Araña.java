@@ -16,6 +16,8 @@ public class Araña extends Animal {
     }
 
     public void comer() {
+        
+        System.out.println("come bichos");
 
     }
 
