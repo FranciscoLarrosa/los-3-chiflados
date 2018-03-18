@@ -22,7 +22,9 @@ public class Pez extends Animal implements Mascota {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
+    
+            
+    
     public Pez() {
 
     }

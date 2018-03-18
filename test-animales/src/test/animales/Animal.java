@@ -1,8 +1,8 @@
 package test.animales;
 
-import interfaces.*;
+import interfaces.Comparable;
 //NO SE COMO CARAJOS HACER ACA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! DIOOS MIO JAJAJA NO PUTA IDEA 
-public abstract class Animal implements  Comparable {
+public abstract class Animal implements Comparable {
 
     int peso;
 
@@ -26,7 +26,7 @@ public abstract class Animal implements  Comparable {
 
     public abstract void emitirSonido();
     
-    @Override
+  
     public int comapareTo(Animal a) {
         if (this.peso < a.peso) {
             return -1;

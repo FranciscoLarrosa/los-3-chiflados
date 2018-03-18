@@ -19,30 +19,32 @@ public class TestAnimales {
         c.setNombre("cucu");
         a.setPatas(8);
         c.setPatas(4);
-        Mascota[] mascotas = new Mascota[4];
-        mascotas[0] = new Pez();
-        mascotas[1] = new Pez();
-        mascotas[2] = new Gato();
-        mascotas[3] = new Gato();
+        Mascota[] mascotas = new Mascota[5];
+        mascotas[0] = new Pez("alberto");
+        mascotas[1] = new Pez("juan");
+        mascotas[2] = new Gato("roberto");
+        mascotas[3] = new Gato("ricardo");
+        mascotas[4] = new Perro("eustemio");
 
         System.out.println(a.getPatas() + "." + c.getPatas());
         // EJERCICIO PARTE 5 :
-        for (int i = 0; i < mascotas.length; i++) {
+        for (Mascota m : mascotas) {
 
-            miMascota(mascotas[i]);
+            miMascota(m);
+
         }
-            // EJERCICIO PARTE 6:
-            EmisorSonido[] sonidos = new EmisorSonido[5];
-            sonidos[0] = new Perro();
-            sonidos[1] = new Perro();
-            sonidos[2] = new Gato();
-            sonidos[3] = new Gato();
-            sonidos[4] = new Gato();
-            for (int j = 0; j < sonidos.length; j++) {
-                queSonidoEmite(sonidos[j]);
-                
-            }
-        
+        // EJERCICIO PARTE 6:
+        EmisorSonido[] sonidos = new EmisorSonido[5];
+        sonidos[0] = new Perro();
+        sonidos[1] = new Perro();
+        sonidos[2] = new Gato();
+        sonidos[3] = new Gato();
+        sonidos[4] = new Gato();
+        for (int j = 0; j < sonidos.length; j++) {
+            queSonidoEmite(sonidos[j]);
+
+        }
+
     }
 
     public static void muestraQueCome(Animal d) {
@@ -53,13 +55,15 @@ public class TestAnimales {
 
     public static void miMascota(Mascota a) {
         a.jugar();
+        System.out.println(a.getNombre());
+
     }
 
     public static void queSonidoEmite(EmisorSonido a) {
         a.emitirSonido();
+
     }
 
     //aaaaa
     //como rompe esto papaaaaa!!!!
-    
 }
