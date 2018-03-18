@@ -11,8 +11,8 @@ public class ComparadorPeso {
         if (a.comapareTo(b)== 0) {
             System.out.println("Pesan lo mismo");
         }
-        else{
-            System.out.println("El segundo es mas pesado");
+        if (a.comapareTo(b)== 1) {
+            System.out.println("el segundo es mas pesado");
         }
     }
     }
