@@ -45,4 +45,9 @@ public class Pez extends Animal implements Mascota {
     public void emitirSonido(){
         System.out.println("Sonido pez");
     }
+
+    @Override
+    public int compareTo(Object a) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

@@ -42,6 +42,11 @@ public class Perro extends AnimalesConPatas implements Mascota, EmisorSonido {
     public void jugar(){
         System.out.println("Perro juega");
     }
+
+    @Override
+    public int compareTo(Object a) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
    
 

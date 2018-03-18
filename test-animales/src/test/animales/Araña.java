@@ -14,6 +14,8 @@ public class Araña extends AnimalesConPatas {
     public Araña() {
 
     }
+            
+            
 
     @Override
     public void comer() {
@@ -32,6 +34,11 @@ public class Araña extends AnimalesConPatas {
     @Override
     public void emitirSonido(){
         System.out.println("que  sonido hace una araña????");
+    }
+
+    @Override
+    public int compareTo(Object a) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 }

@@ -54,4 +54,9 @@ public class Gato extends AnimalesConPatas implements Mascota, EmisorSonido {
     public void emitirSonido() {
         System.out.println(this.sonido);
     }
+
+    @Override
+    public int compareTo(Object a) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
