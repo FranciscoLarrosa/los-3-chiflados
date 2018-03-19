@@ -42,6 +42,7 @@ public class Pez extends Animal implements Mascota {
         System.out.println("come algas");
     }
     
+    @Override
     public void emitirSonido(){
         System.out.println("Sonido pez");
     }

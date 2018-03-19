@@ -13,7 +13,8 @@ import interfaces.*;
  */
 public class Gato extends AnimalesConPatas implements Mascota, EmisorSonido {
 
-    String nombre, sonido;
+    String nombre;
+            String sonido = "MIAU";
 
     public String getNombre() {
         return nombre;
@@ -51,6 +52,7 @@ public class Gato extends AnimalesConPatas implements Mascota, EmisorSonido {
         //as
     }
 
+    @Override
     public void emitirSonido() {
         System.out.println(this.sonido);
     }

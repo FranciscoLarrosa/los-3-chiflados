@@ -4,7 +4,8 @@ import interfaces.*;
 
 public class Perro extends AnimalesConPatas implements Mascota, EmisorSonido {
 
-    String nombre,sonido;
+    String nombre;
+    String sonido = "Guau";
 
     public String getNombre() {
         return nombre;
