@@ -32,10 +32,8 @@ public class TestAnimales {
 
     
         // EJERCICIO PARTE 5 :
-        for (int i = 0; i < mascotasssssss.length; i++) {
-            miMascota(mascotasssssss[i]);
-            
-            
+        for (Mascota mascotassssss : mascotasssssss) {
+            miMascota(mascotassssss);
         }
         
         // EJERCICIO PARTE 6:
@@ -46,9 +44,8 @@ public class TestAnimales {
         sonidos[2] = new Gato();
         sonidos[3] = new Gato();
         sonidos[4] = new Gato();
-        for (int i = 0; i < sonidos.length; i++) {
-            queSonidoEmite( sonidos[i]);
-            
+        for (EmisorSonido sonido : sonidos) {
+            queSonidoEmite(sonido);
         }
 
     }
