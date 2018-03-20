@@ -70,8 +70,5 @@ public class TestAnimales {
 
     }
 
-    //aaaaa
-    //como rompe esto papaaaaa!!!!
-    //AHORA ANDA TODO NO ROMPAN NADA PTMMMMM
-    //CHE JUANI AMI ME ANDA JAJA Q FLASHASTE
+   
 }
